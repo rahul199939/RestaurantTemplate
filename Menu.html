@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBK-Protein</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Style/style.css">
+    <script src="./bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1 class="display-6"><b>Protien bar & kitchen</b></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto pe-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">
+                            <h5><b>HOME</b></h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menu.html">
+                            <h5><b>MENU</b></h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Subscribe.html">
+                            <h5><b>SUBSCRIBE</b></h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Story.html">
+                            <h5><b>STORY</b></h5>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <button class="btn btn-outline-success">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- Menu Section 1 -->
+        <div class="row">
+            <div class="col-12 setMenuImage text-center" style="background-image: url('./Images/menu-section-1.webp');">
+                <p id="SizeMenu">MENU</p>
+            </div>
+        </div>
+        <!-- Menu List -->
+        <div class="container menuContainer">
+            <div class="row my-5">
+                <div id="menu-1" onclick="test(this)" class="col-12 col-md-2 offset-md-1 active mt-3 p-2 btn btn-outline-success btn-lg rounded-pill">
+                    <span>SPRING MENU</span>
+                </div>
+                <div id="menu-2" onclick="test(this)" class="col-12 col-md-2 offset-md-1 mt-3 p-2 btn btn-outline-success btn-lg rounded-pill">
+                    <span>Breakfast Scrambles</span>
+                </div>
+                <div id="menu-3" onclick="test(this)" class="col-12 col-md-2 offset-md-1 mt-3 p-2 btn btn-outline-success btn-lg rounded-pill">
+                    <span>Oatmeal + Acai Bowls</span>
+                </div>
+                <div id="menu-4" onclick="test(this)" class="col-12 col-md-2 offset-md-1 mt-3 p-2 btn btn-outline-success btn-lg rounded-pill">
+                    <span>Salads & Wraps</span>
+                </div>
+            </div>
+            <!-- Menu Item Info -->
+            <!-- Item-1 -->
+            <div class="row">
+                <div class="col-12 col-md-4 offset-md-1">
+                    <div class="card">
+                        <img src="./Images/menuItem-1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="menuTitle">Egg Roll Bowl</span></h5><br>
+                            <p class="card-text">Lean braised pork, kale, rainbow carrots, green onion, riced
+                                cauliflower,
+                                toasted sesame seeds, garlic ginger sauce and vegan spicy mayo 500 cals, 22g protein,
+                                14g
+                                net carbs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 offset-md-2 mt-5">
+                    <div class="card">
+                        <img src="./Images/menuItem-2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="menuTitle">Sesame Crunch Salad</span></h5><br>
+                            <p class="card-text">Lean braised pork, snap peas, rainbow carrots, green onion, napa
+                                cabbage,
+                                pickled red onion, toasted almonds and sesame seed, cilantro and toasted sesame dressing
+                                550 cals, 25g protein, 26g net carbs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item-2 -->
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 offset-md-1">
+                    <div class="card">
+                        <img src="./Images/menuItem-3.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="menuTitle">Salmon & Spring Vegetables</span></h5><br>
+                            <p class="card-text">Salmon, roasted spring vegetables, spinach, riced cauliflower,
+                                microgreens
+                                and lemon vinaigrette
+                                490 cals, 21g protein, 7g net carbs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 offset-md-2 mt-5">
+                    <div class="card">
+                        <img src="./Images/menuItem-4.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="menuTitle">Spring Protein Bowl</span></h5><br>
+                            <p class="card-text">Chicken thigh, roasted spring vegetables, spinach, kale, egg, almonds,
+                                hemp
+                                seed blend, microgreens and lemon vinaigrette
+                                480 cals, 24g protein, 6g net carbs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item-3 -->
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 offset-md-1">
+                    <div class="card">
+                        <img src="./Images/menuItem-5.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="menuTitle">Acai Bowl</span></h5><br>
+                            <p class="card-text">Acai blended with banana and blueberries, topped with strawberries,
+                                blueberries, chia
+                                and housemade granola 510 cals, 4g protein, 91g net carbs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 offset-md-2 mt-5">
+                    <div class="card">
+                        <img src="./Images/menuItem-6.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="menuTitle">AM Protein Bowl</span></h5><br>
+                            <p class="card-text">Eggs, roasted spring vegetables, spinach, kale, almonds, hemp seed
+                                blend and microgreens 300 cals, 19g protein, 4g net carbs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="row p-3 mt-4" style="background-color: #EEEEEE;">
+            <div class="col-12 text-center">
+                <h3><b>CREATED BY RAHUL SAHU</b></h3>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function test(e){
+            var addClass = document.getElementById(e.id)
+            addClass.classList.add("active")
+            for(var i=1;i<5;i++){                
+                if(e.id != "menu-"+i){
+                    var removeClass = document.getElementById("menu-"+i)
+                    removeClass.classList.remove("active")                    
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

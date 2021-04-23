@@ -1,0 +1,314 @@
+.imgBrightness {
+    filter: brightness(50%);
+    position: relative;
+}
+
+.positionText {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.textColorWhite {
+    color: #D9DCDA;
+    font-size: 25px;
+}
+
+.increaseTextSize {
+    font-size: 140px;
+}
+
+.increaseTextSize-1 {
+    font-size: 91px;
+}
+
+.increaseTextSize-2 {
+    font-size: 115px;
+}
+
+.increaseTextSize-3 {
+    font-size: 119px;
+}
+
+.workout .img-fluid {
+    width: 100%;
+    height: 80% !important;
+}
+
+.workout {
+    height: 80%;
+    position: relative;
+    z-index: 0;
+}
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.positionDiv {
+    position: absolute;
+    top: 2%;
+    left: 8%;
+    background-color: #ffffff;
+    width: 26%;
+    height: 75%;
+    padding: 3%;
+}
+
+#heading {
+    font-size: 31px;
+    font-weight: bold;
+    color: #F36C21;
+}
+
+#subHeading {
+    font-size: 24px;
+}
+
+.negativeMargin {
+    margin-top: -8%;
+    z-index: 1;
+    position: relative;
+}
+
+.textOver {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+#size-1 {
+    font-size: 120px;
+    color: white;
+    font-weight: bold;
+}
+
+#size-2 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.setImageInBack {
+    position: relative;
+}
+
+#setImageSize {
+    position: absolute;
+    clip: rect(454px, 887px, 887px, 0px);
+    top: -454px;
+}
+
+#sizeImage {
+    position: relative;
+}
+
+#sizeImage .img-fluid {
+    width: 100%;
+    height: 92% !important;
+}
+
+.positionDiv-2 {
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    background-color: #ffffff;
+    width: 78%;
+    height: 75%;
+    padding: 8%;
+}
+
+#heading-1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #F36C21;
+    margin: 0;
+}
+
+#subHeading-1 {
+    font-size: 30px;
+    padding: 0;
+}
+
+#heading-2 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #0E2244;
+}
+
+#subheading-2 {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+/* .setheight{
+    height: 80%;
+} */
+
+.setheight .img-fluid {
+    height: 80% !important;
+}
+
+.setMenuImage {
+    width: 100%;
+    height: 671px;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(76%);
+}
+
+.setMenuImage-1 {
+    width: 100%;
+    height: 671px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#SizeMenu {
+    padding-top: 15%;
+    font-size: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.menuTitle {
+    color: #B1D235;
+    font-weight: bold;
+}
+
+#SizeMenu-1 {
+    padding-top: 15%;
+    font-size: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.HIW {
+    font-size: 45px;
+    font-weight: bold;
+    color: #F36C21;
+}
+
+.aboutSize {
+    font-size: 45px;
+    color: #F36C21;
+    font-weight: 500;
+    margin-top: -92px;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+    .positionText {
+        top: 12%;
+        left: 16%;
+    }
+
+    .workout {
+        height: 100%;
+    }
+
+    .workout .img-fluid {
+        width: 100%;
+        height: 100% !important;
+    }
+
+    .textColorWhite {
+        font-size: 13px;
+    }
+
+    .increaseTextSize {
+        font-size: 40px;
+    }
+
+    .increaseTextSize-1 {
+        font-size: 23px;
+    }
+
+    .increaseTextSize-2 {
+        font-size: 27px;
+    }
+
+    .increaseTextSize-3 {
+        font-size: 40px;
+    }
+
+    .positionDiv {
+        width: 85%;
+        height: 48%;
+    }
+
+    #heading {
+        font-size: 20px;
+    }
+
+    #subHeading {
+        font-size: 16px;
+    }
+
+    #size-1 {
+        font-size: 30px;
+    }
+
+    #size-2 {
+        font-size: 10px;
+    }
+
+    #setImageSize {
+        position: static;
+        /* clip: rect(119px,887px,422px,0px);
+        top: 10px; */
+    }
+
+    .positionDiv-2 {
+        right: 11%;
+        padding: 4%;
+    }
+
+    #heading-1 {
+        font-size: 25px;
+    }
+
+    #subHeading-1 {
+        font-size: 17px;
+    }
+
+    #heading-2 {
+        font-size: 45px;
+    }
+
+    #subheading-2 {
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .setheight .img-fluid {
+        height: 100%
+    }
+
+    #SizeMenu-1 {
+        font-size: 80px;
+    }
+
+    .PPS .ms-5 {
+        margin-left: 0 !important;
+    }
+
+    #SizeMenu {
+        padding-top: 60%;
+        font-size: 80px;
+    }
+
+    .HIW {
+        font-size: 25px;
+    }
+
+    .infoRmv {
+        visibility: hidden;
+    }
+
+    .aboutSize {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -25px;
+    }
+}
